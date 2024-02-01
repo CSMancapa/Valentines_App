@@ -3,7 +3,7 @@ import './ValentinePage.css'; // Import CSS for styling
 import AudioPlayer from './AudioPlayer'; // Import the AudioPlayer component
 import ElGato from './el gato.jpeg'; // Import the original cat image
 import ElGatoHappy from './el_gato_happy.jpeg'; // Import the happy cat image for "Yes" response
-import ElGatoAngry from './el_gato_angry.jpeg';
+import ElGatoAngry from './el_gato_angry.jpeg'; // Import the angry cat image for "No" response
 
 const ValentinePage = () => {
   const [response, setResponse] = useState(null);
@@ -18,7 +18,7 @@ const ValentinePage = () => {
 
   const handleNoClick = () => {
     setResponse('No');
-    setCatImage(ElGatoAngry);
+    setCatImage(ElGatoAngry); // Change the image to the angry cat image for "No" response
     setMessage("Don't play stupid games...");
   };
 
@@ -37,7 +37,7 @@ const ValentinePage = () => {
           <button className="yes-button" onClick={handleYesClick}>Yes</button> {/* Yes button with click handler */}
           <button className="no-button" onClick={handleNoClick}>No</button> {/* No button with click handler */}
         </div>
-        {response && <p>You clicked "{response}"</p>} {/* Display response if available */}
+        {response && <p>{message}</p>} {/* Display response if available */}
       </div>
     </div>
   );
