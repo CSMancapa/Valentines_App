@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/Valentines_App/static/css/main.cc6a0079.css",
+    "main.js": "/Valentines_App/static/js/main.5f0b6a44.js",
+    "static/js/787.08f8f58d.chunk.js": "/Valentines_App/static/js/787.08f8f58d.chunk.js",
+    "static/media/WhatYouHeard.mp3": "/Valentines_App/static/media/WhatYouHeard.b3986665572842baf188.mp3",
+    "static/media/el gato.jpeg": "/Valentines_App/static/media/el gato.9a6e07f7b77ff0445ddb.jpeg",
+    "static/media/el_gato_angry.jpeg": "/Valentines_App/static/media/el_gato_angry.b5a73625bdf081c2eb0a.jpeg",
+    "static/media/el_gato_happy.jpeg": "/Valentines_App/static/media/el_gato_happy.a90ba5cfe554d9b4d7eb.jpeg",
+    "static/media/raining-love.jpeg": "/Valentines_App/static/media/raining-love.b72d120dd4a55075aead.jpeg",
+    "index.html": "/Valentines_App/index.html",
+    "main.cc6a0079.css.map": "/Valentines_App/static/css/main.cc6a0079.css.map",
+    "main.5f0b6a44.js.map": "/Valentines_App/static/js/main.5f0b6a44.js.map",
+    "787.08f8f58d.chunk.js.map": "/Valentines_App/static/js/787.08f8f58d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cc6a0079.css",
+    "static/js/main.5f0b6a44.js"
+  ]
+}
